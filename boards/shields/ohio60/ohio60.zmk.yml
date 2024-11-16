@@ -1,0 +1,11 @@
+file_format: "1"
+id: ohio60
+name: Ohio60
+type: shield
+url: https://github.com/elias-vt/ohio60
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - ohio60_left
+  - ohio60_right
