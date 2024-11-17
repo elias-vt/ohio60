@@ -18,7 +18,7 @@
             &kp W       &kp W       &kp A   &kp S       &kp D       &kp F       &kp G               &kp H       &kp J   &kp K       &kp L     &kp SEMI   &kp QUOT   &kp NUHS    &kp UP 
         //┼──────────┼──────────├──────────┼──────────┼──────────┼──────────┼──────────┤        ├──────────┼──────────┼──────────┼──────────┼──────────┤──────────┤──────────┤──────────┤──────────┤
         //│    FN1   │     <    │  Y       │  X       │  C       │  V       │  B       │       │  N       │  M       │ ,        │ .        │ -         │    FN    │ left     |   down   | right    |
-           &mo1        &kp NUBS   &kp Z    &kp X       &kp C       &kp V       &kp B               &kp N    &kp M     &kp CMMA     &kp DOT    &kp FSLH  &mo 1       &kp LEFT  &kp DOWN     &kp RIGHT
+           &mo 1        &kp NUBS   &kp Z    &kp X       &kp C       &kp V       &kp B               &kp N    &kp M     &kp CMMA     &kp DOT    &kp FSLH  &mo 1       &kp LEFT  &kp DOWN     &kp RIGHT
         //╰──────────┴──────────┴──────────┴──────────┴──────────┼──────────┼──────────┤        ├──────────┼──────────┼──────────┴──────────┴──────────╯──────────╯──────────╯──────────╯──────────╯
         //                                                 shift    space //TAB CNTRL//DEL         WIN(alt)   bspace     enter(FN)                   
                                                         &kp LSFT    &kp SPC    &kp LCTL       &mt LALT LWIN   &kp BSPC    &lt 2 ENTER   
