@@ -2,7 +2,7 @@
 #include "ohio60-layouts.dtsi"
 
 &physical_layout0 {
-    transform = <&default_transform0>;
+    transform = <&default_transform>;
 };
 
 / {
