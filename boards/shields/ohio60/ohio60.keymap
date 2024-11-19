@@ -1,6 +1,10 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+&lt {
+  quick-tap-ms = <150>;
+};
+
 / {
 
     keymap {
