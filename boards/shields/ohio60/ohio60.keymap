@@ -9,7 +9,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────┬──────────┬──────────╮        ╭──────────┬──────────┬──────────┬──────────┬──────────╮──────────╮──────────╮──────────╮
         //│     ESC  │   ^      │  1       │  2       │  3       │  4       │  5       │        │  6       │  7       │  8       │  9       │  0       │  ß       │     ´          
-             &kp ESC   &kp GRAV   &kp N1      &kp N2    &kp N3   &kp N4        &kp N5               &kp N6    &kp N7   &kp N8       &kp N9    &kp N0    &kp MINUS &kp EQL     &none 
+             &kp ESC   &kp GRAV   &kp N1      &kp N2    &kp N3   &kp N4        &kp N5               &kp N6    &kp N7   &kp N8       &kp N9    &kp N0    &kp MINUS &kp EQL     &kp DEL 
         //┼──────────┼──────────├──────────┼──────────┼──────────┼──────────┼──────────┤        ├──────────┼──────────┼──────────┼──────────┼──────────┤──────────┤──────────┤──────────┤
         //│     w    │   TAB    │  Q       │  W       │  E       │  R       │  T       │        │  Z       │  U       │  I       │  O       │  P       │  Ü       │  +       │    w     │
             &kp W      &kp TAB      &kp Q   &kp W       &kp E       &kp R       &kp T               &kp Y       &kp U      &kp I    &kp O       &kp P     &kp LBKT   &kp RBKT  &kp W
@@ -20,8 +20,8 @@
         //│    FN1   │     <    │  Y       │  X       │  C       │  V       │  B       │       │  N       │  M       │ ,        │ .        │ -         │    FN    │ left     |   down   | right    |
            &mo 1        &kp NUBS   &kp Z    &kp X       &kp C       &kp V       &kp B               &kp N    &kp M     &kp CMMA     &kp DOT    &kp FSLH  &mo 1       &kp LEFT  &kp DOWN     &kp RIGHT
         //╰──────────┴──────────┴──────────┴──────────┴──────────┼──────────┼──────────┤        ├──────────┼──────────┼──────────┴──────────┴──────────╯──────────╯──────────╯──────────╯──────────╯
-        //                                                 shift    space //TAB CNTRL//DEL         WIN(alt)   bspace     enter(FN)                   
-                                                        &kp LSFT    &kp SPC    &kp LCTL       &mt LALT LWIN   &kp BSPC    &lt 2 ENTER   
+        //                                                 shift    space //TAB CNTRL              WIN   bspace     enter(FN)                   
+                                                        &kp LSFT    &kp SPC    &kp LCTL       &kp LWIN   &kp BSPC    &lt 2 ENTER   
         //                                             ╰──────────┴─────────┴──────────╯        ╰──────────┴─────────┴──────────╯
             >;
         };   
@@ -65,7 +65,7 @@
             &trans       &trans   &trans    &trans       &trans       &trans       &trans           &trans    &trans     &trans     &trans    &trans  &trans       &trans      &trans     &trans
         //╰──────────┴──────────┴──────────┴──────────┴──────────┼──────────┼──────────┤        ├──────────┼──────────┼──────────┴──────────┴──────────╯──────────╯──────────╯──────────╯──────────╯
         //                                                                           
-                                                        &trans     &kp TAB     &kp DEL             &trans   &trans    &trans   
+                                                        &kp RALT     &kp TAB     &kp LALT             &trans   &trans    &trans   
         //                                             ╰──────────┴─────────┴──────────╯        ╰──────────┴─────────┴──────────╯
             >;
         }; 
