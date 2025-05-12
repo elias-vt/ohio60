@@ -1,2 +1,2 @@
 # ohio60
-## 60% split-keyboard
+60% split-keyboard
